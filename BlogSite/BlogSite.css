@@ -81,7 +81,7 @@
 }
 
 .container2 {
-    padding-left: 16px;
+  padding-left: 16px;
   position: absolute;
   width: 513px;
   height: 56px;
@@ -142,12 +142,70 @@ Footer {
   color: #000000;
   width: 300px;
 }
-Footer p{
-    background: white;
-    margin-right: 10px;
+Footer p {
+  background: white;
+  margin-right: 10px;
 }
-.cover{
-    position: absolute;
-    right: 50px;
-    top: 145px;
+.cover {
+  position: absolute;
+  right: 50px;
+  top: 145px;
+}
+.greeting {
+  position: absolute;
+  width: 170px;
+  height: 28px;
+  left: 32px;
+  top: 81px;
+  background: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #000000;
+}
+.username {
+  position: absolute;
+  width: 106px;
+  height: 28px;
+  left: 39px;
+  top: 135px;
+  background: white;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #000000;
+}
+.password {
+  position: absolute;
+  width: 103px;
+  height: 28px;
+  left: 110px;
+  top: 420px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background: white;
+  color: #000000;
 }
